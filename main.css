@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lora:wght@400;500&display=swap');
+
+body{
+    background-color: rgb(191, 219, 247);
+    font-family: 'Lora', serif;
+    font-size: 25px;
+    line-height: 35px;
+    /* letter-spacing: 1px;  */
+    color: black;
+    margin: auto;
+    width: 70%;
+    /* border: 3px solid green; */
+    padding: 10px;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    padding: 20px;
+}
+
+p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+img{
+    display: block ;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* a{
+    color: green;
+    width: 30%;
+    margin: 5%;
+    padding: 10px;
+    text-decoration: none;
+} */
+/* a:link, a:visited, a:hover, a:active */
+a:link, a:visited {
+    color: green;
+    width: 30%;
+    margin: 5%;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: whitesmoke;
+    background-color: green;
+}
+.party{
+    /* margin-top: 40px; */
+    margin-bottom: 40px;
+}
+a[href^="http"] {
+    background:  no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
